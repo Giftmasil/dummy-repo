@@ -1,8 +1,8 @@
 /* import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  await page.goto('http://localhost:5173/');
-  await page.goto('http://localhost:5173/login');
+  await page.goto('https://dummy-repo-1-3hgo.onrender.com/');
+  await page.goto('https://dummy-repo-1-3hgo.onrender.com/login');
   await page.getByPlaceholder('angela@gmail.com').click();
   await page.getByPlaceholder('angela@gmail.com').fill('gift@gmail.com');
   await page.getByPlaceholder('Enter password').click();
@@ -13,8 +13,8 @@ test('test', async ({ page }) => {
 import { test } from '@playwright/test';
 
 test.only('test', async ({ page }) => {
-  await page.goto('http://localhost:5173/');
-  await page.goto('http://localhost:5173/login');
+  await page.goto('https://dummy-repo-1-3hgo.onrender.com/');
+  await page.goto('https://dummy-repo-1-3hgo.onrender.com/login');
   await page.getByPlaceholder('angela@gmail.com').click();
   await page.getByPlaceholder('angela@gmail.com').fill('gift@gmail.com');
   await page.getByPlaceholder('Enter password').click();
