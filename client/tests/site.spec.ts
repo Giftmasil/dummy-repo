@@ -10,7 +10,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Login' }).click();
 }); */
 
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 
 test.only('test', async ({ page }) => {
   await page.goto('http://localhost:5173/');

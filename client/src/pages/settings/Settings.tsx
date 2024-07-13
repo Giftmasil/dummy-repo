@@ -24,7 +24,7 @@ import {
 import Footer from "../../components/footer/Footer";
 
 const Settings: React.FC = () => {
-  const { user, loading, error } = useSelector((state: RootState) => state.user);
+  const { user } = useSelector((state: RootState) => state.user);
   const [updatedUser, setUpdatedUser] = useState<User | null>(null);
   const [password, setPassword] = useState<string>("");
   const dispatch: AppDispatch = useDispatch();
