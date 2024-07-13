@@ -1,7 +1,7 @@
 /* import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3500',
+    baseURL: 'https://dummy-repo-jk6d.onrender.com',
 });
 
 axiosInstance.interceptors.request.use(

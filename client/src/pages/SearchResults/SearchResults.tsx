@@ -21,7 +21,7 @@ const SearchResults: React.FC = () => {
         const fetchSearchResults = async () => {
             if (query) {
                 try {
-                    const response = await axios.get(`http://localhost:3500/users/search?query=${query}`);
+                    const response = await axios.get(`https://dummy-repo-jk6d.onrender.com/users/search?query=${query}`);
                     setResults(response.data);
                 } catch (error) {
                     console.error('Error fetching search results:', error);
