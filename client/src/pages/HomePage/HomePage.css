@@ -1,0 +1,18 @@
+.emergency-button {
+    max-width: 30%;
+    font-size: 2rem;
+    padding-bottom: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fa-bullhorn {
+    margin-right: 1rem;
+    margin-top: .25rem;
+}
+
+.AI-button {
+    background-color: white;
+    color: white;
+}

@@ -1,0 +1,17 @@
+.record-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .record-title {
+    font-size: 2em;
+    margin-bottom: 8px;
+    font-weight: bolder;
+  }
+
+  .status-done {
+    color: green;
+  }

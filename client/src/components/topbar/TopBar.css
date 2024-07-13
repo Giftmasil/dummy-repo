@@ -1,0 +1,121 @@
+.topbar{
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 0.5px solid grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.topbar-header{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+   
+}
+
+.topbar-unordered-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+}
+
+.topbar-list-item {
+    list-style-type: none;
+    margin-left: 1rem;
+}
+
+.topbar-list-item a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.topbar-list-item a:hover, .topbar-list-item-button:hover {
+    color: #65558F;
+}
+
+.company-logo  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.company-logo, .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.searchInput {
+    color: inherit;
+    border: 1px solid gray;
+    padding: 0.2rem;
+    
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+
+  @media screen and (min-width: 200px) {
+    .topbar-list-item {
+        display: none;
+    }
+    .topbar-header{
+        font-size: 1rem;
+    }
+    .topbar-list-item-button {
+        font-size: .75rem;
+    }
+  }
+
+  @media screen and (min-width: 460px) {
+    .topbar-list-item {
+        display: none;
+    }
+    .topbar-header{
+        font-size: 1.4rem;
+    }
+    .topbar-list-item-button {
+        font-size: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    .topbar-list-item {
+        display: block;
+    }
+    .topbar-header {
+        font-size: 1.7rem;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .topbar-header {
+        font-size: 2.1rem;
+    }
+  }
